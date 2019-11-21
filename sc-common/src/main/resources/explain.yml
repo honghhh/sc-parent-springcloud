@@ -1,0 +1,6 @@
+#运行步骤
+#sc-parent    						        整体父工程			不运行
+#sc-common     					            公共子模块			不运行
+#sc-eureka			                        eureka服务注册中心	  1
+#sc-provider  		                        微服务提供者		      2
+#sc-consumer-plat			                平台消费者             3
