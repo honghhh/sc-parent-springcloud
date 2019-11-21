@@ -37,6 +37,7 @@ public class DeptController_Consumer {
     public Object discovery() {
         System.out.println("123");
         System.out.println("123");
+        System.out.println("123");
         return restTemplate.getForObject(REST_URL_PREFIX + "/dept/discovery", Object.class);
     }
 }
